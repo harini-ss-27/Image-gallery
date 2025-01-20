@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: rgb(175, 171, 171);
+    width: 100%;
+    height: auto;
+    margin: 6vw 0vw;
+}
+
+.images{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1vw;
+}
+.imagebox{
+    border: 1px solid black;
+    text-align: center;
+    background-color: white;
+    margin: 1vw;
+    padding:0.5vw;
+    width: fit-content;
+}
+
+.imagebox p{
+    font-size: larger;
+    color: rgb(112, 95, 95);
+    margin: 0.2vw;
+}
